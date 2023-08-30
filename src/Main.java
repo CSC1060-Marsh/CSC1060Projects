@@ -7,13 +7,22 @@ public class Main {
         System.out.println("Hello and please explode!");
         System.out.println("Yay it works!");
         System.out.println("Hello and goodbye!");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        String message
+                = "This is a message";
+        System.out.println(message);
+        String messagetwo = "Testing";
+        System.out.println(messagetwo);
+        String Message = "Yay lol";
+        System.out.println(Message);
+        Message = "This is a new message";
+        System.out.println(Message);
+        String messagethree = "This is a message";
+        int five = 5;
+        System.out.println(five);
+        String message1 = "Hello ";
+        String message2 = "World";
+        System.out.println(message1 + message2);
+        System.out.println("println adds new line after the text, not before" + "\n");
+        System.out.println(message1 + message2);
         }
     }
-}
