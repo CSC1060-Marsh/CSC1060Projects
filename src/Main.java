@@ -30,6 +30,8 @@ public class Main {
         System.out.println(dadjokeanswer + ":)");
         String completejoke = dadjokequestion + " " + dadjokeanswer;
         System.out.println(completejoke);
+
+
                 int two = 2;
                 double threepoint0 = 3.0;
         System.out.println(5 + 2);
@@ -39,6 +41,7 @@ public class Main {
         System.out.println(five / 2);
         System.out.println(1 + 4 / 2);
         System.out.println(3.0 / 6);
-
+        System.out.println(0.3425 + 5.2375 / 6.2938);
+        System.out.println(0.1 + 0.3);
         }
     }
