@@ -24,5 +24,21 @@ public class Main {
         System.out.println(message1 + message2);
         System.out.println("println adds new line after the text, not before" + "\n");
         System.out.println(message1 + message2);
+        String dadjokequestion = "What do you call a fish with no eyes?";
+        String dadjokeanswer = "Fsh";
+        System.out.println(dadjokequestion + "\n" + "\n");
+        System.out.println(dadjokeanswer + ":)");
+        String completejoke = dadjokequestion + " " + dadjokeanswer;
+        System.out.println(completejoke);
+                int two = 2;
+                double threepoint0 = 3.0;
+        System.out.println(5 + 2);
+        System.out.println(2 + 5);
+        System.out.println(2 + 5 + 2);
+        System.out.println(5 / two);
+        System.out.println(five / 2);
+        System.out.println(1 + 4 / 2);
+        System.out.println(3.0 / 6);
+
         }
     }
