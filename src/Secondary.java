@@ -1,2 +1,8 @@
+import java.util.Scanner;
+
 public class Secondary {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+    }
 }
