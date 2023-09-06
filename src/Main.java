@@ -45,16 +45,5 @@ public class Main {
         System.out.println(3.0 / 6);
         System.out.println(0.3425 + 5.2375 / 6.2938);
         System.out.println(0.1 + 0.3);
-
-
-
-
-
-
-
-
-
-
-
         }
     }
