@@ -10,8 +10,9 @@ public class Tertiary {
         return preface + " oh nooooo" + epiface + anotherFace + aNumber;
     }
 
-
     public static void yellThing(String thing) {
         System.out.println(thing);
+
+        }
     }
 }
