@@ -28,7 +28,23 @@ public class Six {
 
         String exampleTwo = "word";
         //substrings start inclusive and end exclusive
-        
+        String exampleThree = "asdflkj";
+        if (exampleTwo.equals(exampleThree)) {
+            System.out.println("They're different!");
+        } else {
+            System.out.println("They're the same!");
+        }
+
+        String logMessage = "name=NumberOfCatsOnTheLoose;value=5;day=Tuesday;";
+        if (logMessage.indexOf("name=NumberOfCatsOnTheLoose") >= 0) {
+            int startOfValue = logMessage.indexOf("value=");
+            String containsValue = logMessage.substring(startOfValue); //value=5;day=Tuesday;
+            int equalsSignIndex = containsValue.indexOf('='); //5
+            int semicolonIndex = containsValue.indexOf(';'); //7
+            String value = containsValue.substring(equalsSignIndex + 1, semicolonIndex); //5
+            //between the fifth and seventh characters (= and ;), it gets the stuff between the two characters, which is the number 5.
+            System.out.println(Integer.parseInt(value));
+        }
 
     }
 
