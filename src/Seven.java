@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Seven {
     public static void main(String[] args) {
@@ -52,5 +53,30 @@ public class Seven {
         for (int i = 0; i < numberthing.length; i++) {
             doubledNumbers[i] = numberthing[i] * 2;
         }
+
+        String wordAsString = "balloon";
+        char[] wordAsArray = {'b', 'a', 'l', 'l', 'o', 'o', 'n'};
+        System.out.println(wordAsString.charAt(0));
+        System.out.println(wordAsArray[0]);
+        System.out.println(wordAsString.indexOf('n'));
+        System.out.println(indexOfArray(wordAsArray, 'n'));
+
+        System.out.println(wordAsString + "s!");
+        char[] longerArray = Arrays.copyOf(wordAsArray, wordAsArray.length + 2);
+        longerArray[longerArray.length - 2] = 's';
+        longerArray[longerArray.length - 1] = '!';
+        System.out.println(Arrays.toString(longerArray));
+
+        List<Character> wordAsList = List.of('b', 'a', 'l', 'l', 'o', 'o', 'n');
+        System.out.println(wordAsList.indexOf('b'));
+        System.out.println(wordAsList);
+    }
+    public static int indexOfArray(char[] array, char character) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == character) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
