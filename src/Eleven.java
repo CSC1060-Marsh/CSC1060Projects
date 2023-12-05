@@ -30,7 +30,7 @@ public class Eleven {
             System.out.println("File not found when it darn well should be.");
         }
 
-        try ( FileInputStream inputStream = new FileInputStream(file)) {
+        try (FileInputStream inputStream = new FileInputStream(file)) {
             Scanner sc = new Scanner(inputStream);
             while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
