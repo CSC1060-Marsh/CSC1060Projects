@@ -23,5 +23,7 @@ public class Twelve {
             sum += i;
         }
         System.out.println("Average: " + sum / grades.size());
+
+
     }
 }
